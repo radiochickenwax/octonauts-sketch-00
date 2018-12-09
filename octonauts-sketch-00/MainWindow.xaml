@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:octonauts_sketch_00"
         mc:Ignorable="d"
         AllowsTransparency="False"
+        KeyDown="MainWindowGetKey"
         Title="MainWindow" Height="450" Width="800" Background="Blue">
     <Canvas Name="mainCanvas">
         
