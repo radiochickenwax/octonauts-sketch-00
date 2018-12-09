@@ -23,6 +23,12 @@ namespace octonauts_sketch_00
         public MainWindow()
         {
             InitializeComponent();
+            Image Gup_B = new Image { Width=100, Height=100};
+            Gup_B.Source = new BitmapImage(new Uri("/gup_b_right_trans.png", UriKind.Relative));
+            mainCanvas.Children.Add(Gup_B);
+            mainCanvas.Background = Brushes.Blue;
+            Canvas.SetLeft(Gup_B, 50);
+            Canvas.SetTop(Gup_B, 50);
         }
     }
 }

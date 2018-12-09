@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:octonauts_sketch_00"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        AllowsTransparency="False"
+        Title="MainWindow" Height="450" Width="800" Background="Blue">
+    <Canvas Name="mainCanvas">
         
-    </Grid>
+    </Canvas>
 </Window>
